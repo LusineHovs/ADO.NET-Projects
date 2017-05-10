@@ -6,12 +6,12 @@
         xmlns:local="clr-namespace:LoginPasswordSQL"
         mc:Ignorable="d"
         Title="MainWindow" Height="257.895" Width="473.685">
-    <Grid Margin="0,0,-8,-4">
+<Grid >
         <Label x:Name="Login" Content="Login" HorizontalAlignment="Left" Margin="89,48,0,0" VerticalAlignment="Top"/>
         <Label x:Name="Password" Content="Password" HorizontalAlignment="Left" Margin="89,105,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="LoginT" HorizontalAlignment="Left" Height="23" Margin="188,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
         <TextBox x:Name="PasswordT" HorizontalAlignment="Left" Height="23" Margin="188,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
-        <Button x:Name="Log" Content="Login" Margin="225,174,174,0" VerticalAlignment="Top" Click="Log_Click"/>
+        <Button x:Name="Log" Content="Login" Margin="225,174,174,0" VerticalAlignment="Top" />
 
-    </Grid>
+</Grid>
 </Window>
