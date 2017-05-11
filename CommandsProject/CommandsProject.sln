@@ -7,7 +7,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001-Command", "Command\001-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002-ExcecuteScalarCommand", "002-ExcecuteCommand\002-ExcecuteScalarCommand.csproj", "{52E7D04E-50DC-444E-9DEA-B28113A5FE14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_DeleteInsertCommand", "003_DeleteInsertCommand\003_DeleteInsertCommand.csproj", "{47DAFF39-787A-40D8-87EA-2E1A26EFA514}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_ExecuteNonQueryCommand", "003_DeleteInsertCommand\003_ExecuteNonQueryCommand.csproj", "{47DAFF39-787A-40D8-87EA-2E1A26EFA514}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004_ExecuteReader(table)Commands", "004_ExecuteReader(table)Commands\004_ExecuteReader(table)Commands.csproj", "{21A44400-1586-4ED3-9ACE-283B2BCE28A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_ReaderWork", "ReaderWork\005_ReaderWork.csproj", "{701BFFBB-4692-4A87-BFCD-E90EDB37D019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006_ReaderWork", "006_ReaderWork\006_ReaderWork.csproj", "{50790A4B-8748-4952-BC86-A73E1C45C0C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007_ExecuteCommandAsync", "ExecuteCommandAsync\007_ExecuteCommandAsync.csproj", "{BB660601-9B39-400A-94DE-40964AB012D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +35,22 @@ Global
 		{47DAFF39-787A-40D8-87EA-2E1A26EFA514}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47DAFF39-787A-40D8-87EA-2E1A26EFA514}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47DAFF39-787A-40D8-87EA-2E1A26EFA514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21A44400-1586-4ED3-9ACE-283B2BCE28A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21A44400-1586-4ED3-9ACE-283B2BCE28A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21A44400-1586-4ED3-9ACE-283B2BCE28A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21A44400-1586-4ED3-9ACE-283B2BCE28A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{701BFFBB-4692-4A87-BFCD-E90EDB37D019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{701BFFBB-4692-4A87-BFCD-E90EDB37D019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{701BFFBB-4692-4A87-BFCD-E90EDB37D019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{701BFFBB-4692-4A87-BFCD-E90EDB37D019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50790A4B-8748-4952-BC86-A73E1C45C0C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50790A4B-8748-4952-BC86-A73E1C45C0C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50790A4B-8748-4952-BC86-A73E1C45C0C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50790A4B-8748-4952-BC86-A73E1C45C0C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB660601-9B39-400A-94DE-40964AB012D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB660601-9B39-400A-94DE-40964AB012D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB660601-9B39-400A-94DE-40964AB012D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB660601-9B39-400A-94DE-40964AB012D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
