@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006_ReaderWork", "006_Reade
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007_ExecuteCommandAsync", "ExecuteCommandAsync\007_ExecuteCommandAsync.csproj", "{BB660601-9B39-400A-94DE-40964AB012D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008_PackageCommands", "008_PackageCommands\008_PackageCommands.csproj", "{E92C8670-425E-4547-A30D-E62AC03C0C5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009_DBColumnNullValue", "009_DBColumnNullValue\009_DBColumnNullValue.csproj", "{7A72AF4A-7184-4590-9EA5-58E86E244843}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{BB660601-9B39-400A-94DE-40964AB012D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB660601-9B39-400A-94DE-40964AB012D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB660601-9B39-400A-94DE-40964AB012D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E92C8670-425E-4547-A30D-E62AC03C0C5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E92C8670-425E-4547-A30D-E62AC03C0C5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E92C8670-425E-4547-A30D-E62AC03C0C5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E92C8670-425E-4547-A30D-E62AC03C0C5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A72AF4A-7184-4590-9EA5-58E86E244843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A72AF4A-7184-4590-9EA5-58E86E244843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A72AF4A-7184-4590-9EA5-58E86E244843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A72AF4A-7184-4590-9EA5-58E86E244843}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
