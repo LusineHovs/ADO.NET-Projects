@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,13 +14,21 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ConnectionStringSecurity
+namespace Security
 {
     /// <summary>
-    /// Interaction logic for UserControl1.xaml
+    /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class UserControl1 : UserControl
+    public partial class MainWindow : Window
     {
+        private object LoginT;
+
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void Log_Click(object sender, RoutedEventArgs e)
         {
             string connStr = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=ShopDB;" +
                 "User ID=" + LoginT.Text + ";" +
