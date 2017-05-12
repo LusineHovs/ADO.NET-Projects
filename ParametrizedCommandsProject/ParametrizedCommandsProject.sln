@@ -3,7 +3,49 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_ParametrizedCommand", "ParametrizedCommand\001_ParametrizedCommand.csproj", "{AB130C26-7426-4F08-A20D-E803F59AA32C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_ParametrizedCommand", "002_ParametrizedCommand\002_ParametrizedCommand.csproj", "{6A443CF5-0C4A-46EF-9701-70CC17BC467E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_ParameterDirection", "003_ParameterDirection\003_ParameterDirection.csproj", "{CBCE6200-8A84-4C84-A804-252BC7127180}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004_StoredProcedures", "004_StoredProcedures\004_StoredProcedures.csproj", "{2A792B03-858C-48E5-96C5-93919D299AD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_StoredProcedures", "005_StoredProcedures\005_StoredProcedures.csproj", "{EAFCDA71-066C-4C58-8036-3ED747213253}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007_ProcedureReturnValue", "007_ProcedureReturnValue\007_ProcedureReturnValue.csproj", "{E8D90353-0F99-4322-B17F-AAF600597D82}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB130C26-7426-4F08-A20D-E803F59AA32C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB130C26-7426-4F08-A20D-E803F59AA32C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB130C26-7426-4F08-A20D-E803F59AA32C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB130C26-7426-4F08-A20D-E803F59AA32C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A443CF5-0C4A-46EF-9701-70CC17BC467E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A443CF5-0C4A-46EF-9701-70CC17BC467E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A443CF5-0C4A-46EF-9701-70CC17BC467E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A443CF5-0C4A-46EF-9701-70CC17BC467E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBCE6200-8A84-4C84-A804-252BC7127180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBCE6200-8A84-4C84-A804-252BC7127180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBCE6200-8A84-4C84-A804-252BC7127180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBCE6200-8A84-4C84-A804-252BC7127180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A792B03-858C-48E5-96C5-93919D299AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A792B03-858C-48E5-96C5-93919D299AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A792B03-858C-48E5-96C5-93919D299AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A792B03-858C-48E5-96C5-93919D299AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAFCDA71-066C-4C58-8036-3ED747213253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAFCDA71-066C-4C58-8036-3ED747213253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAFCDA71-066C-4C58-8036-3ED747213253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAFCDA71-066C-4C58-8036-3ED747213253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8D90353-0F99-4322-B17F-AAF600597D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8D90353-0F99-4322-B17F-AAF600597D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8D90353-0F99-4322-B17F-AAF600597D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8D90353-0F99-4322-B17F-AAF600597D82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
