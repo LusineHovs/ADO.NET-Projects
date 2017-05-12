@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ParametrizedCommand
+namespace 001_ParametrizedCommand
 {
     class Program
     {
