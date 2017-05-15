@@ -29,7 +29,7 @@
 
         <ListBox Name="listOfFiles"   Margin="3"  Grid.Column="1" Grid.Row="0"      
                  Height="90" Width="370" Background="Beige"
-                 SelectionChanged="selectionEvent">
+                 >
         </ListBox>
 
 
@@ -57,7 +57,7 @@
             <StackPanel  Name="invisibPanel" Grid.Column="1" Visibility="Collapsed">
                 <TextBlock Margin="5, 5" Padding="3" FontSize="13" FontWeight="Bold" HorizontalAlignment="Center" >Name of new file</TextBlock>
                 <TextBox Name ="NewFile_Name_TextBox" Margin="5, 5" Padding="3" Width="180"></TextBox>
-                <Button Margin="5, 5" Padding="3" FontSize="13" Click="Button_Click" >Create</Button>
+                <Button Margin="5, 5" Padding="3" FontSize="13"  >Create</Button>
             </StackPanel>
         </StackPanel>
 
